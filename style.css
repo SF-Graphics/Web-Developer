@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flixebal-container {
     display: flex;
     padding: 20px;
 }
@@ -37,4 +37,41 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experiance {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.experiance-item {
+
+    box-shadow: 10px 10px 20px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    padding-left: 30px;
+
+}
+
+#web-development {
+    border-left: 7px solid tomato;
+}
+
+#Baby-Web-Developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
